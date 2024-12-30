@@ -261,7 +261,6 @@ Not all participants agree that the champion should be determined by the lowest 
 
 | Place | Player                | Points | Buchholz Coef | Buchholz Advanced Coef |
 |-------|-----------------------|--------|---------------|-------------------------|
-|-------|-----------------------|--------|---------------|-------------------------|
 | 1     | Alehandro081          | 58.0   | 1404.0        | 1325.5                  |
 | 2     | Brutzim               | 56.0   | 1388.5        | 1320.5                  |
 | 3     | bazarwokzal           | 55.5   | 1310.5        | 1236.0                  |
