@@ -1,4 +1,4 @@
-# Alternative Champions of Dicechess Championship 2024
+# Alternative Winners of Dicechess Championship 2024
 
 The 2024 Dice Chess Champion is decided by the lowest total sum of positions across 3 tournaments:
 
@@ -6,7 +6,226 @@ The 2024 Dice Chess Champion is decided by the lowest total sum of positions acr
 2. [5+0 Dice Chess Championship 2024](https://dicechess.com/tournament/61495563)
 3. [5+5 Dice Chess Championship 2024](https://dicechess.com/tournament/66232993) (to be played on Dec 30)
 
-Not all participants agree that the champion should be determined by the lowest total placement across three tournaments. Below is a list of alternative champions determined by the total points scored:
+| Place | Player                | Sum of Places   |
+|-------|-----------------------|-----------------|
+| 1     | Spartan               | 26              |
+| 2     | Yehor                 | 27              |
+| 3     | bazarwokzal           | 28              |
+| 4     | zzzeminem             | 28              |
+| 5     | Brutzim               | 31              |
+| 6     | Perez                 | 34              |
+| 7     | fueqe                 | 35              |
+| 8     | DiceChess             | 37              |
+| 9     | Alehandro081          | 37              |
+| 10    | Esssquire             | 40              |
+<details>
+<summary>Click to see more players</summary>
+
+| Place | Player                | Sum of Places   |
+|-------|-----------------------|-----------------|
+| 11    | Qg4                   | 41              |
+| 12    | smiralex              | 50              |
+| 13    | Desperado             | 52              |
+| 14    | ilusha1103            | 52              |
+| 15    | Gucci                 | 56              |
+| 16    | Anoi                  | 57              |
+| 17    | Horus                 | 58              |
+| 18    | babai83               | 61              |
+| 19    | Admiral               | 62              |
+| 20    | Polyfem               | 71              |
+| 21    | Pashko                | 72              |
+| 22    | Kipovets              | 73              |
+| 23    | Rabestro              | 74              |
+| 24    | lyal                  | 76              |
+| 25    | SchnapsReich          | 79              |
+| 26    | MRSOK                 | 86              |
+| 27    | svline1               | 88              |
+| 28    | Qtrie                 | 88              |
+| 29    | VKB                   | 91              |
+| 30    | Oirat1987             | 92              |
+| 31    | AlexeyOK              | 92              |
+| 32    | ChessHorse            | 92              |
+| 33    | SrPeliGroSo           | 94              |
+| 34    | DirtyHarry            | 100             |
+| 35    | Ricco                 | 101             |
+| 36    | chessbober            | 101             |
+| 37    | Sapsade               | 104             |
+| 38    | MuMuK                 | 104             |
+| 39    | Doggo001              | 105             |
+| 40    | Fildibob              | 105             |
+| 41    | ivankur               | 107             |
+| 42    | DjStol                | 108             |
+| 43    | Pastor                | 109             |
+| 44    | OlegDroz              | 110             |
+| 45    | Borodach1             | 111             |
+| 46    | GrMagician            | 112             |
+| 47    | fvk                   | 112             |
+| 48    | Sduvalo72             | 112             |
+| 49    | Allshad               | 113             |
+| 50    | IvCotto               | 114             |
+| 51    | bthrvrwhr             | 114             |
+| 52    | polukopyrka           | 115             |
+| 53    | DarkPapin             | 117             |
+| 54    | Momus                 | 117             |
+| 55    | Candid                | 117             |
+| 56    | DombrovskaS           | 118             |
+| 57    | DrMelekess            | 119             |
+| 58    | bigmag2011            | 120             |
+| 59    | Pavelser              | 120             |
+| 60    | WilliamSteinitz       | 120             |
+| 61    | borozdov              | 121             |
+| 62    | Toms                  | 122             |
+| 63    | k926ee                | 123             |
+| 64    | marat                 | 123             |
+| 65    | Mailman1977           | 124             |
+| 66    | Anatoly1976           | 125             |
+| 67    | ValentinPetrov        | 126             |
+| 68    | evaumka               | 127             |
+| 69    | Volodya12             | 127             |
+| 70    | SAB                   | 128             |
+| 71    | LaBourdonnais         | 129             |
+| 72    | Tynbr                 | 132             |
+| 73    | LeoArman              | 133             |
+| 74    | Lornean               | 134             |
+| 75    | Griha                 | 134             |
+| 76    | FloatingMorality      | 136             |
+| 77    | AlexisChess           | 137             |
+| 78    | gosha83               | 137             |
+| 79    | Robin                 | 137             |
+| 80    | Bonusman              | 139             |
+| 81    | maha0a                | 140             |
+| 82    | loeschick             | 140             |
+| 83    | fullfeel              | 141             |
+| 84    | YarikG                | 141             |
+| 85    | Hvicha                | 141             |
+| 86    | alexandrachess        | 142             |
+| 87    | Anvarprogamer         | 144             |
+| 88    | Pyan                  | 145             |
+| 89    | MihaiIorga            | 145             |
+| 90    | Ldr                   | 146             |
+| 91    | SuperMario            | 146             |
+| 92    | Anna01                | 150             |
+| 93    | Serg777               | 153             |
+| 94    | AlipovsA              | 155             |
+| 95    | Kamovich              | 157             |
+| 96    | Romantic1982          | 158             |
+| 97    | Blaze                 | 158             |
+| 98    | Vladimirovich         | 158             |
+| 99    | gmelect               | 158             |
+| 100   | Simon233              | 158             |
+| 101   | Iiioki                | 158             |
+| 102   | AlexAlx               | 159             |
+| 103   | Forrvard              | 161             |
+| 104   | Chessburger           | 161             |
+| 105   | HaF23                 | 163             |
+| 106   | N1k7                  | 163             |
+| 107   | Galaxy4Chess          | 163             |
+| 108   | buzina                | 164             |
+| 109   | GravityChess          | 164             |
+| 110   | Monakh17              | 165             |
+| 111   | rachangel225          | 168             |
+| 112   | TaadsSSaads           | 169             |
+| 113   | WillUkissme           | 170             |
+| 114   | Boss1005              | 170             |
+| 115   | Vova1974              | 171             |
+| 116   | Alik                  | 171             |
+| 117   | tulalan               | 173             |
+| 118   | DESOKSIRIBONUKLEOTID  | 174             |
+| 119   | AlexLind              | 175             |
+| 120   | Vertex                | 176             |
+| 121   | MEXAHIK               | 182             |
+| 122   | 0odbo0                | 184             |
+| 123   | Saulesmeita           | 185             |
+| 124   | YunSan8               | 185             |
+| 125   | csvs                  | 189             |
+| 126   | Fenix                 | 189             |
+| 127   | kost665               | 191             |
+| 128   | vitja11111            | 191             |
+| 129   | Rusea                 | 197             |
+| 130   | KolyaMalya            | 199             |
+| 131   | Quinn                 | 202             |
+| 132   | Irkut2049             | 203             |
+| 133   | TESEY                 | 203             |
+| 134   | Serg                  | 204             |
+| 135   | Gardez                | 204             |
+| 136   | Fiorino               | 204             |
+| 137   | alexbabic             | 205             |
+| 138   | anodator              | 205             |
+| 139   | BobbyChess            | 206             |
+| 140   | Globalist77           | 207             |
+| 141   | V4erasrr              | 208             |
+| 142   | Arbastro              | 209             |
+| 143   | Darkf1ame             | 210             |
+| 144   | ArikMakKEM            | 211             |
+| 145   | Suvenir               | 212             |
+| 146   | tataSerhey            | 213             |
+| 147   | Moonster              | 213             |
+| 148   | TheLastHero           | 214             |
+| 149   | vampir580             | 214             |
+| 150   | GermanSaratov         | 215             |
+| 151   | ArolandoBloon         | 216             |
+| 152   | Arleriana             | 217             |
+| 153   | Radideathel           | 217             |
+| 154   | sinner312             | 218             |
+| 155   | misha                 | 218             |
+| 156   | bobep                 | 219             |
+| 157   | BrikersA              | 219             |
+| 158   | RFClassifier          | 220             |
+| 159   | MakarikRaskumarik52   | 220             |
+| 160   | konst1                | 221             |
+| 161   | mastoker              | 222             |
+| 162   | Makar7858759          | 222             |
+| 163   | ManManych             | 223             |
+| 164   | Sardorbek             | 223             |
+| 165   | skrydg                | 224             |
+| 166   | Golubi4ko             | 224             |
+| 167   | Sancho85              | 225             |
+| 168   | 893                   | 226             |
+| 169   | dragge                | 227             |
+| 170   | Konfeta               | 227             |
+| 171   | Minhoroworiw23        | 228             |
+| 172   | munkapire             | 228             |
+| 173   | PeCh02                | 229             |
+| 174   | Eridiant              | 229             |
+| 175   | GuruPokera            | 230             |
+| 176   | AZeppeli              | 230             |
+| 177   | Gooutcheaters         | 230             |
+| 178   | jj0310                | 231             |
+| 179   | Flowolga              | 231             |
+| 180   | Three                 | 232             |
+| 181   | AlainDemur            | 232             |
+| 182   | Dyrila                | 233             |
+| 183   | changy                | 233             |
+| 184   | Interista             | 234             |
+| 185   | Nick                  | 234             |
+| 186   | Elistinka             | 234             |
+| 187   | AntonioBandera        | 235             |
+| 188   | Stupid                | 235             |
+| 189   | pioletti              | 236             |
+| 190   | vikvvv                | 238             |
+| 191   | Alinasamorukova07     | 239             |
+| 192   | Makcumka              | 239             |
+| 193   | coolkarlis            | 240             |
+| 194   | Roman88               | 241             |
+| 195   | ExclusiveHinkal       | 241             |
+| 196   | Rostik                | 242             |
+| 197   | Nikolay48             | 244             |
+| 198   | linnong               | 245             |
+| 199   | m0bbich               | 249             |
+| 200   | FCSTORM180            | 251             |
+| 201   | Oneofyou              | 253             |
+| 202   | Love                  | 259             |
+| 203   | Alexander78           | 261             |
+| 204   | Lutik                 | 261             |
+| 205   | Konan110803           | 263             |
+| 206   | egor1400              | 269             |
+| 207   | mrrrshtoll            | 271             |
+| 208   | Aaromiro              | 281             |
+| 209   | kapran                | 304             |
+| 210   | openai                | 312             |
+</details>
+
+Not all participants agree that the champion should be determined by the lowest total placement across three tournaments. Below is a list of alternative winners determined by the total points scored:
 
 | Place | Player                | Points | Buchholz Coef | Buchholz Advanced Coef |
 |-------|-----------------------|--------|---------------|-------------------------|
@@ -20,6 +239,11 @@ Not all participants agree that the champion should be determined by the lowest 
 | 8     | Perez                 | 39.5   | 1069.0        | 1010.5                  |
 | 9     | fueqe                 | 39.0   | 1169.0        | 1100.5                  |
 | 10    | Ricco                 | 39.0   | 1026.0        | 975.5                   |
+<details>
+<summary>Click to see more players</summary>
+
+| Place | Player                | Points | Buchholz Coef | Buchholz Advanced Coef |
+|-------|-----------------------|--------|---------------|-------------------------|
 | 11    | DiceChess             | 38.5   | 1122.5        | 1066.5                  |
 | 12    | Qg4                   | 38.5   | 1087.0        | 1030.5                  |
 | 13    | ilusha1103            | 38.5   | 1078.5        | 1033.5                  |
@@ -220,3 +444,4 @@ Not all participants agree that the champion should be determined by the lowest 
 | 208   | Nikolay48             | 0.0    | 16.0          | 2.0                     |
 | 209   | Roman88               | 0.0    | 12.0          | 0.0                     |
 | 210   | linnong               | 0.0    | 3.0           | 1.0                     |
+</details>

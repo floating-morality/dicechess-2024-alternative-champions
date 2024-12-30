@@ -1,15 +1,15 @@
 package org.floatingmorality.dicechess
 
 import cats.effect.{IO, IOApp}
-
-import scala.io.Source
-import scala.util.Using
+import cats.syntax.eq.*
 import io.circe.parser.decode
+import org.floatingmorality.dicechess.codecs.TournamentDecoder
 import org.floatingmorality.dicechess.domain.*
 import org.floatingmorality.dicechess.domain.Points.PointsOrdering
-import org.floatingmorality.dicechess.codecs.TournamentDecoder
 
 import scala.collection.immutable.ListMap
+import scala.io.Source
+import scala.util.Using
 
 object Main extends IOApp.Simple:
 
@@ -17,8 +17,8 @@ object Main extends IOApp.Simple:
     for
       tournament1 <- readResource("5_0_dice_chess_championship_2024.json")
       tournament2 <- readResource("3_0_dice_chess_championship_2024.json")
-      leaders = calculateLeadersByPoints(tournament1, tournament2)
-      _ <- IO.println(generateMarkdownTable(leaders))
+      leaders = calculateLeadersByPlaces(tournament1, tournament2)
+      _ <- IO.println(generateMarkdownTable2(leaders))
     yield ()
 
   private def readResource(resource: String) = IO {
@@ -26,6 +26,22 @@ object Main extends IOApp.Simple:
   }.flatMap { content =>
     IO.fromEither(decode[Tournament](content))
   }
+
+  private def calculateLeadersByPlaces(tournaments: Tournament*): ListMap[String, Int] =
+    val allPlayers = tournaments.flatMap(_.participants.map(_.name)).distinct
+
+    val playerToTotalPlaces = allPlayers.map { playerName =>
+      val totalPlaces = tournaments.map { tournament =>
+        val participants = tournament.participants
+        participants.indexWhere(_.name === playerName) match {
+          case -1    => Math.ceil(participants.size / 2.0).toInt
+          case index => index + 1
+        }
+      }.sum
+      playerName -> totalPlaces
+    }.toMap
+
+    ListMap.from(playerToTotalPlaces.toSeq.sortBy(_._2))
 
   private def calculateLeadersByPoints(tournaments: Tournament*) =
     val playerToPoints = tournaments
@@ -46,6 +62,17 @@ object Main extends IOApp.Simple:
     val rows = pointsMap.toSeq.zipWithIndex
       .map { case ((player, points), index) =>
         f"| ${index + 1}%-5d | ${player.padTo(21, ' ')} | ${points.points}%-6.1f | ${points.buchholzCoef}%-13.1f | ${points.buchholzAdvancedCoef}%-23.1f |"
+      }
+      .mkString("\n")
+    header + "\n" + rows
+  }
+
+  private def generateMarkdownTable2(placementsMap: ListMap[String, Int]): String = {
+    val header = "| Place | Player                | Sum of Places |\n" +
+      "|-------|-----------------------|-----------------|"
+    val rows = placementsMap.toSeq.zipWithIndex
+      .map { case ((player, totalPlacement), index) =>
+        f"| ${index + 1}%-5d | ${player.padTo(21, ' ')} | ${totalPlacement}%-15d |"
       }
       .mkString("\n")
     header + "\n" + rows

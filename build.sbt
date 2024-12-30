@@ -15,16 +15,16 @@ lazy val root = (project in file("."))
       "-Xfatal-warnings",
       s"-P:wartremover:excluded:${sourceManaged.value.asFile.getPath}",
       "-Wunused:imports",
-      "-Wunused:privates",
       "-Wunused:locals",
       "-Wunused:implicits"
-    ),
+    )
   )
-  .settings(libraryDependencies ++=
-    "org.typelevel" %% "cats-effect" % "3.5.7" +:
-      Seq(
-        "io.circe" %% "circe-core",
-        "io.circe" %% "circe-generic",
-        "io.circe" %% "circe-parser"
-      ).map(_ % "0.14.10")
+  .settings(
+    libraryDependencies ++=
+      "org.typelevel" %% "cats-effect" % "3.5.7" +:
+        Seq(
+          "io.circe" %% "circe-core",
+          "io.circe" %% "circe-generic",
+          "io.circe" %% "circe-parser"
+        ).map(_ % "0.14.10")
   )
