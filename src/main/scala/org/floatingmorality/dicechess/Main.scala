@@ -17,8 +17,9 @@ object Main extends IOApp.Simple:
     for
       tournament1 <- readResource("5_0_dice_chess_championship_2024.json")
       tournament2 <- readResource("3_0_dice_chess_championship_2024.json")
-      leaders = calculateLeadersByPlaces(tournament1, tournament2)
-      _ <- IO.println(generateMarkdownTable2(leaders))
+      tournament3 <- readResource("5_5_dice_chess_championship_2024.json")
+      leaders = calculateLeadersByPoints(tournament1, tournament2, tournament3)
+      _ <- IO.println(generateMarkdownTable(leaders))
     yield ()
 
   private def readResource(resource: String) = IO {
@@ -30,15 +31,15 @@ object Main extends IOApp.Simple:
   private def calculateLeadersByPlaces(tournaments: Tournament*): ListMap[String, Int] =
     val allPlayers = tournaments.flatMap(_.participants.map(_.name)).distinct
 
-    val playerToTotalPlaces = allPlayers.map { playerName =>
+    val playerToTotalPlaces = allPlayers.map { player =>
       val totalPlaces = tournaments.map { tournament =>
         val participants = tournament.participants
-        participants.indexWhere(_.name === playerName) match {
+        participants.indexWhere(_.name === player) match {
           case -1    => Math.ceil(participants.size / 2.0).toInt
           case index => index + 1
         }
       }.sum
-      playerName -> totalPlaces
+      player -> totalPlaces
     }.toMap
 
     ListMap.from(playerToTotalPlaces.toSeq.sortBy(_._2))
